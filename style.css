@@ -1,0 +1,29 @@
+.container{
+  padding-top: 200px;
+  text-align: center;
+}
+.container h3{
+  font-size: 3vw;
+  overflow: hidden;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 0%;
+  white-space: nowrap;
+  background-image: linear-gradient(155deg, #fb7419, #432BB6, #319197);
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: typeIn 7s linear infinite;
+}
+@keyframes typeIn {
+  0%{
+    width: 0%;
+  }
+  50%{
+    width: 50%; /*Covers only 50% of the screen Change to 100% if your text is long*/
+  }
+  100%{
+    width: 0%;
+  }
+}
